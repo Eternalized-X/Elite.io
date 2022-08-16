@@ -1,6 +1,7 @@
 dependencies:
   google-closure-library: 20190819.0.0
   ws: 7.1.2
+  heroku: 7.62.0
 packages:
   /async-limiter/1.0.1:
     dev: false
@@ -16,9 +17,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-gftXq3XI81cJCgkUiAVixA0raD9IVmXqsylCrjRygw4+UOOGzPoxnQ6r/CnVL9i+mDncJo94tSkyrtuuQVBmrg==
+    /heroku/7.62.0:
+    dependencies:
+      async-limiter: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-gftXq3XI81cJCgkUiAVixA0raD9IVmXqsylCrjRygw4+UOOGzPoxnQ6r/CnVL9i+mDncJo94tSkyrtuuQVBmrg==
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   google-closure-library: ^20190819.0.0
   ws: ^7.1.2
+  heroku: ^7.62.0
